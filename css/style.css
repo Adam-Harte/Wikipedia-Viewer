@@ -1,0 +1,15 @@
+body{
+	background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png");
+	background-repeat: no-repeat;
+}
+h1, h5{
+	font-family: Rancho;
+}
+.grey-background{
+	background-color: Snow;
+	opacity: 0.9;
+}
+.random-search{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}

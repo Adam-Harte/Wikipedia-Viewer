@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Wikipedia Viewer</title>
-  
+  <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 
-  
+      <link rel="stylesheet" href="css/style.css">
+
   
 </head>
 
@@ -15,19 +17,27 @@
   <body>
 	<div class="container">
 		<h1 class="text-center">Wikipedia Viewer</h1>
-		<div class="search-bar">
-			<input class="search-term form-control" type="search"></input>
-			<button class="search btn btn-primary" type="button">Search</button>
-			<button class="random-search btn btn-primary" type="button">Random Page</button>
-		</div>
-		<div class="row">
+		<div class="search-bar text-center row">
 			<div class="col-xs-12">
-				<ul id="search-results">
-
-				</ul>
+				<div class="input-group">
+					<input class="search-term form-control" type="search" placeholder="Search Articles">
+					<div class="input-group-btn">
+						<button class="search btn btn-primary" type="button"><i class="fa fa-fw fa-search"></i></button>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div class="text-center">
+			<button class="random-search btn btn-primary" type="button"><i class="fa fa-fw fa-wikipedia-w"></i> Discover</button>
+		</div>
+			<ul id="search-results" class="list-group">
+
+			</ul>
+		
 	</div>
+	<footer>
+			<h5 class="text-center">Coded by Adam Harte</h5>
+	</footer>
 </body>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
